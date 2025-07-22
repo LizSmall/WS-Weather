@@ -1,7 +1,7 @@
 function searchCity(city) {
   let apiKey = "31be6t3394f370982af3d7o35730974f";
   let apiUrl = 
-  "https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=imperial";
+  `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=imperial`;
   console.log(apiUrl);
 }
 
